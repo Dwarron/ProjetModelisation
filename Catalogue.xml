@@ -1,0 +1,9 @@
+<?XML version="1.0 encoding="UTF-8"?>
+<!DOCTYPE catalogue SYSTEM "catalogue.dtd">
+<catalogue>
+    <livre>
+        <autheur>
+        <date>
+        <prix>
+    </livre>
+</catalogue>
