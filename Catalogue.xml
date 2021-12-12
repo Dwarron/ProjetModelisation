@@ -2,8 +2,25 @@
 <!DOCTYPE catalogue SYSTEM "catalogue.dtd">
 <catalogue>
     <livre>
-        <autheur>
-        <date>
-        <prix>
+        <nomLivre>J'ai avalé un arc-en-ciel</nomLivre>
+        <autheur>Erwan Ji</autheur>
+        <prix>16,95</prix>prix>
+        <nombrePages>396</nombrePages>nombrePages>
+        <dateSortie>02/03/2017</dateSortie>dateSortie>
+        <commentaire></commentaire>commentaire>
+        <photoLivre></photoLivre>photoLivre>
+        <support>physique</support>support>
+        <genre>roman</genre>
+    </livre>
+    <livre>
+        <nomLivre>J'avais douze ans...<nomLivre>
+        <autheur>Nathalie Schweighoffer<autheur>
+        <prix>9,99<prix>
+        <nombrePages>247<nombrePages>
+        <dateSortie>01/01/2020<dateSortie>
+        <commentaire><commentaire>
+        <photoLivre><photoLivre>
+        <support>physique<support>
+        <genre>autobiographie<genre>
     </livre>
 </catalogue>
