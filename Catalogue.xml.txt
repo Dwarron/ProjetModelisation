@@ -1,0 +1,9 @@
+<!ELEMENT catalogue (livre*)>
+	<!ELEMENT livre (titre, auteur, nb_pages)>
+	  <!ATTLIST livre
+	    type (roman | nouvelles | poemes | théâtre) #IMPLIED
+	    lang CDATA "fr"
+	  >
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT auteur (#PCDATA)>
+	<!ELEMENT nb_pages (#PCDATA)>
