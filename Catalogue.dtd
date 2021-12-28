@@ -1,9 +1,20 @@
-<!ELEMENT catalogue (livre*)>
-	<!ELEMENT livre (titre, auteur, nb_pages)>
-	  <!ATTLIST livre
-	    type (roman | nouvelles | poemes | théâtre) #IMPLIED
-	    lang CDATA "fr"
-	  >
-	<!ELEMENT titre (#PCDATA)>
-	<!ELEMENT auteur (#PCDATA)>
-	<!ELEMENT nb_pages (#PCDATA)>
+<!ELEMENT catalogue (articleQuantite*)>
+    <!ELEMENT articleQuantite(livre*)>
+    <!ATTLIST articleQuantite quantite CDATA #REQUIRED>
+        <!ELEMENT livre (titre, auteur+, prix+, pages, sortie, commentaire*, couverture, support, genre)>
+        <!ATTLIST livre ISBN CDATA #REQUIRED>
+        <!ELEMENT titre (#PCDATA)>
+        <!ELEMENT auteur (#PCDATA)>
+        <!ELEMENT prix (#PCDATA)>
+        <!ELEMENT pages (#PCDATA)>
+        <!ELEMENT sortie (#PCDATA)>
+        <!ELEMENT commentaire (contenue, date, note)>
+        <!ATTLIST commentaire nom CDATA #REQUIRED>
+        <!ATTLIST commentaire prenom CDATA #REQUIRED>
+            <!ELEMENT contenue (#PCDATA)>
+            <!ELEMENT date (#PCDATA)>
+            <!ELEMENT note (#PCDATA)>
+        <!ELEMENT couverture EMPTY>
+        <!ATTLIST couverture img CDATA #IMPLIED>
+        <!ELEMENT support ( physique | digital )>
+        <!ELEMENT genre ( roman | science-fiction | fantasy | fantastique | horreur | autobiographie | conte | épopée | nouvelles | témoignage )>

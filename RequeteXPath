@@ -1,0 +1,32 @@
+Le nombre d'article : 
+/catalogue/articleQuantite/@quantite
+ou
+//@quantite
+
+Les numéro ISBN des livres :
+/catalogue/articleQuantite/livre/@ISBN
+ou
+//@ISBN
+
+La photo de couverture d'un livre si elle existe :
+/catalogue/articleQuantite/livre/couverture/@img
+ou
+//@img
+
+Titre, auteur, pages et prix d'un livre :
+sortie/preceding-sibling
+
+Toutes les informations des commentaire :
+/catalogue/articleQuantite/livre/commentaire/descendant::*
+
+Toutes les informations de tous les livres :
+/catalogue/articleQuantite/livre/descendant::*
+
+Le contenue des tous les commentaires du client nommé Durant : 
+//commentaire[@nom="Durant"]/contenue
+
+Le titre des livres avec un prix supérieur à 15 euros : 
+/catalogue/articleQuantite/livre[prix>15]/titre
+
+Les numéro ISBN des livres contenant plus d'un commentaire:
+/catalogue/articleQuantite/livre[count (commentaire)>1]/@ISBN

@@ -8,17 +8,17 @@
             <prix>16,95</prix>prix>
             <pages>396</pages>
             <sortie>02/03/2017</sortie>
-            <commentaire>
+            <commentaire nom="Durant" prenom="Dupont">
                 <contenue>L'histoire est passionante et intriguante.</contenue>
                 <date>24/12/2021</date>
                 <note>8/10</note>
             </commentaire>
-            <commentaire>
+            <commentaire nom="Dpont" prenom="Durant">
                 <contenue>J'ai adoré ce livre.</contenue>
                 <date>14/08/2017</date>
                 <note>7.8/10</note>
             </commentaire>
-            <couverture img="../AvaleArcEnCiel.pnj"></couverture>
+            <couverture img="../AvaleArcEnCiel.pnj" />
             <support>physique</support>
             <genre>roman</genre>
         </livre>
@@ -28,12 +28,12 @@
             <prix>9,99</prix>
             <pages>247</pages>
             <sortie>01/01/2020</sortie>
-            <commentaire>
+            <commentaire nom="toto" prenom="titi">
                 <contenue>J'ai adoré lire ce livre.</contenue>
                 <date>10/02/2020</date>
                 <note>6.9/10</note>
             </commentaire>
-            <couverture img="../JavaisDouzeAns.pnj"></couverture>
+            <couverture img="../JavaisDouzeAns.pnj" />
             <support>physique</support>
             <genre>autobiographie</genre>
         </livre>
@@ -45,12 +45,12 @@
             <prix>2,55</prix>prix>
             <pages>96</pages>
             <sortie>23/06/2005</sortie>
-            <commentaire>
+            <commentaire nom="Durant" prenom="Dupont">
                 <contenue>Un classique ce livre.</contenue>
                 <date>18/03/2017</date>
                 <note>8.9/10</note>
             </commentaire>
-            <couverture img="../BadinePasAvecAmour.pnj"></couverture>
+            <couverture img="../BadinePasAvecAmour.pnj" />
             <support>digital</support>
             <genre>Drame romantique</genre>
         </livre>
