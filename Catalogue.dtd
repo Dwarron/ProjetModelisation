@@ -1,17 +1,17 @@
 <!ELEMENT catalogue (articleQuantite*)>
     <!ELEMENT articleQuantite(livre*)>
     <!ATTLIST articleQuantite quantite CDATA #REQUIRED>
-        <!ELEMENT livre (titre, auteur+, prix+, pages, sortie, commentaire*, couverture, support, genre)>
+        <!ELEMENT livre (titre, auteur+, prix+, pages, sortie, commentaire*, couverture, support+, genre)>
         <!ATTLIST livre ISBN CDATA #REQUIRED>
         <!ELEMENT titre (#PCDATA)>
         <!ELEMENT auteur (#PCDATA)>
         <!ELEMENT prix (#PCDATA)>
         <!ELEMENT pages (#PCDATA)>
         <!ELEMENT sortie (#PCDATA)>
-        <!ELEMENT commentaire (contenue, date, note)>
+        <!ELEMENT commentaire (contenu, date, note)>
         <!ATTLIST commentaire nom CDATA #REQUIRED>
         <!ATTLIST commentaire prenom CDATA #REQUIRED>
-            <!ELEMENT contenue (#PCDATA)>
+            <!ELEMENT contenu (#PCDATA)>
             <!ELEMENT date (#PCDATA)>
             <!ELEMENT note (#PCDATA)>
         <!ELEMENT couverture EMPTY>
