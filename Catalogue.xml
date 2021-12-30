@@ -5,7 +5,7 @@
         <livre ISBN="9782092566077">
             <titre>J'ai avalé un arc-en-ciel</titre>
             <auteur>Erwan Ji</auteur>
-            <prix>16,95</prix>prix>
+            <prix>16,95</prix>
             <pages>396</pages>
             <sortie>02/03/2017</sortie>
             <commentaire nom="Durant" prenom="Dupont">
@@ -42,7 +42,7 @@
         <livre ISBN="9782253180036">
             <titre>On ne badine pas avec l'amour</titre>
             <auteur>Alfred de Mussset</auteur>
-            <prix>2,55</prix>prix>
+            <prix>2,55</prix>
             <pages>96</pages>
             <sortie>23/06/2005</sortie>
             <commentaire nom="Durant" prenom="Dupont">
