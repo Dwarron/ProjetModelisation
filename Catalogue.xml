@@ -9,12 +9,12 @@
             <pages>396</pages>
             <sortie>02/03/2017</sortie>
             <commentaire nom="Durant" prenom="Dupont">
-                <contenue>L'histoire est passionante et intriguante.</contenue>
+                <contenu>L'histoire est passionante et intriguante.</contenu>
                 <date>24/12/2021</date>
                 <note>8/10</note>
             </commentaire>
             <commentaire nom="Dpont" prenom="Durant">
-                <contenue>J'ai adoré ce livre.</contenue>
+                <contenu>J'ai adoré ce livre.</contenu>
                 <date>14/08/2017</date>
                 <note>7.8/10</note>
             </commentaire>
@@ -29,7 +29,7 @@
             <pages>247</pages>
             <sortie>01/01/2020</sortie>
             <commentaire nom="toto" prenom="titi">
-                <contenue>J'ai adoré lire ce livre.</contenue>
+                <contenu>J'ai adoré lire ce livre.</contenu>
                 <date>10/02/2020</date>
                 <note>6.9/10</note>
             </commentaire>
@@ -46,7 +46,7 @@
             <pages>96</pages>
             <sortie>23/06/2005</sortie>
             <commentaire nom="Durant" prenom="Dupont">
-                <contenue>Un classique ce livre.</contenue>
+                <contenu>Un classique ce livre.</contenu>
                 <date>18/03/2017</date>
                 <note>8.9/10</note>
             </commentaire>
